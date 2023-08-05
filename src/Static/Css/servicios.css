@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,800&family=Noticia+Text&display=swap');
+
+.banner{
+    position: relative;
+    top: 15vh;
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.banner-service{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    gap: 9em;
+}
+.banner-service-text{
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+}
+.banner-service-text h1{
+    font-family: 'Newsreader' , serif; 
+    font-size: 9.5vh !important;
+    font-weight: 600 !important;
+    -webkit-text-stroke: var(--color1) .8px !important;
+    margin-bottom: .9em;
+}
+.banner-service-text p{
+    font-family: 'Newsreader', serif;
+    font-size: 4.4vh;
+    color: #28240D;
+}
+.banner-service-img{
+    width: 55%;
+}
+.services-cards{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.cards{
+    margin: 10vh;
+    width: 30%;
+    overflow: hidden;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: #dadada;
+    border-radius: 20px 20px;
+    border: none;
+}
+.cards img{
+    margin: 4vh 7vh;
+    align-items: center;
+    width: 70%;
+    mix-blend-mode: darken;
+}
+.cat{
+    width: 6vh;
+    height: 6vh;
+    background: #679184;
+    margin: 2vh;
+    float: right;
+    border-radius: 10%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cat i{
+    font-size: 3vh;
+    color: #FFF;
+}
+.description{
+    width: 100%;
+    text-align: center;
+    font-family: 'Noticia Text', serif;
+    border-radius: 0px 0px 20px 20px;
+    border-top: 1px solid #679184;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+
+}
+.description h2{
+    font-weight: 700;
+    font-size: 4vh;
+}
+.description p{
+    font-weight: 400;
+    font-size: 2vh;
+}
+.description button{
+    margin: 0 0 2vh 0;
+    border-radius: 2px;
+    background: #679184;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 18vh;
+    height: 4vh;
+    border: none;
+    color: #FFF;
+    font-size: 2vh;
+}

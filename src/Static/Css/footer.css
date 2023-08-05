@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,800&family=Noticia+Text&display=swap');
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+:root{
+    --color1: #292929;
+}
+
+
+.footer-container{
+    margin-top: 7em;
+    width: 100%;
+    background: #679184;
+}
+.footer-container a{
+    text-decoration: none;
+    color: #000;
+}
+.container-full{
+    width: 100%;
+    background: #679184;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+.section{
+    text-align: left;
+    justify-content: center;
+    padding: 2em 0em;
+}
+.section div{
+    padding: .3em 0em;
+    display: flex;
+}
+.s1{
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.s1 p{
+    margin: auto;
+    font-size: 2.8vh !important;
+    padding-top: .4em;
+}
+.section img{
+    margin: auto;
+    width: 30%;
+}
+
+.section p{
+    color: #fff;
+    font-size: 3.2vh;
+    font-family: 'Lora', serif !important;
+    display: flex;
+}
+
+.section a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Lora', serif;
+    font-size: 2.3vh;
+}
+.section i{
+    color: var(--color1);
+    font-size: 1.5em;
+    padding-right: .4em;
+    justify-content: center;
+}
+.cont{
+    color: #fff;
+}
+
+
+.pie-text{
+    text-align: center;
+    padding-top: 0 !important;
+    color: #fff;
+    font-family: 'Newsreader', serif;
+    
+}
+
+a:hover{
+    color: #fff;
+}
+
+@media screen and (max-width:1620px){
+
+
+}
