@@ -68,9 +68,9 @@ export default function HeaderComponent() {
                     </div>
                     <div class="enlaces" id="enlaces">
                         <Link to="/">Inicio</Link>
-                        <Link to="servicios">Servicios</Link>
-                        <Link to="nosotros">Nosotros</Link>
-                        <Link to="contacto">Contáctanos</Link>
+                        <Link to="/servicios">Servicios</Link>
+                        <Link to="/nosotros">Nosotros</Link>
+                        <Link to="/contacto">Contáctanos</Link>
                     </div>
                 </nav>
             </header>

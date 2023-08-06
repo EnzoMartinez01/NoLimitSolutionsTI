@@ -1,7 +1,16 @@
-import React from 'react'
+import React from 'react';
+import HeaderComponent from '../HeaderComponent';
+import MainContactoComponent from './MainContactoComponent';
+import FooterComponent from '../FooterComponent';
 
 export default function ContactanosComponent() {
   return (
-    <div>ContactanosComponent</div>
+    <>
+      <HeaderComponent />
+      <br />
+      <MainContactoComponent />
+      <br />
+      <FooterComponent />
+    </>
   )
 }

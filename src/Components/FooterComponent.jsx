@@ -21,15 +21,15 @@ export default function FooterComponent() {
                     <div className='section col-md-2'>
                         <p>Explora</p>
                         <Link to="/">Inicio</Link>
-                        <Link to="servicios">Servicios</Link>
-                         <Link to="nosotros">Nosotros</Link>
-                         <Link to="contacto">Contactanos</Link>
+                        <Link to="/servicios">Servicios</Link>
+                         <Link to="/nosotros">Nosotros</Link>
+                         <Link to="/contacto">Contactanos</Link>
                     </div>
                     <div className='section col-md-3'>
                         <p className='cont'>Contacto</p>
                         <div>
                             <i class="fa-solid fa-envelope"></i>
-                                <a href="">nolimitsolutionsti@gmail.com</a>
+                                <a href="mailto:nolimitsolutionsti@gmail.com">nolimitsolutionsti@gmail.com</a>
                         </div>
                         <div>
                             <i class="fab fa-whatsapp"></i>

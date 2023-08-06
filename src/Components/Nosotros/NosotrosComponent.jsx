@@ -1,7 +1,14 @@
-import React from 'react'
+import React from 'react';
+import HeaderComponent from '../HeaderComponent'
+import FooterComponent from '../FooterComponent';
+
 
 export default function NosotrosComponent() {
   return (
-    <div>NosotrosComponent</div>
+    <>
+      <HeaderComponent />
+      <br />
+      <FooterComponent />
+    </>
   )
 }
