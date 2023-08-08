@@ -97,7 +97,7 @@ header{
 }
 
 .headroom--unpinned{
-    transform: translateY(-100%);
+    transform: translateY(0%);
 }
 
 /* PROPIEDADES PARA DISP MOV */
@@ -133,6 +133,6 @@ header{
         color: var(--color1);
         font-size: 3em;
         right: 0.5em !important;
-        top: .3em !important;
+        top: 0em !important;
     }
 }

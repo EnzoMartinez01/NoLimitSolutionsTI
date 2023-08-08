@@ -7,6 +7,8 @@ import enzo from '../../Static/Images/Principal/Enzo.png';
 
 export default function BannerComponent() {
 
+
+
     const [show, setShow] = useState(false);
 
     const whatsappclick = () => {
@@ -38,7 +40,7 @@ export default function BannerComponent() {
                 </div>
             </div>
         </section>
-        <section>
+        <section className='who'>
             <div className='somos'>
                 <div className='somos-div'>
                     <div className='somos-border'>
@@ -55,12 +57,12 @@ export default function BannerComponent() {
                             <p>CEO & Co-Founder</p>
                         </div>
                     </div>
+                </div>
                     <div className='somos-quienes'>
                         <h4>¿Quienes somos?</h4>
                         <br />
                         <p>Somos una consultoría que brinda soluciones innovadoras a nuestros clientes. Nuestra misión no es solo resolver los desafíos actuales, sino también capacitar y empoderar a futuros programadores mediante formación especializada. Juntos, creamos un camino hacia el éxito tecnológico para empresas y profesionales en constante evolución.</p>
                     </div>
-                </div>
             </div>
         </section>
         <section>
