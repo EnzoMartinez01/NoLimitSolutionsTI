@@ -6,12 +6,13 @@
     --color2: #3C3315;
     --color3: #ffffff;
     --color4: #679184;
+    --color5: #d6d6d686;
 }
-
+/* BANNER PRINCIPAL/*/
 
 section {
     position: relative;
-    top: 15vh;
+    top: 10vh;
     overflow: hidden;
     flex-direction: row;
     justify-content: center;
@@ -20,29 +21,34 @@ section {
 
 .bannerPrincipal  {
     position: relative;
-    width: 85%;
+    width: 90%;
     height: auto;
     overflow: hidden;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     margin: auto;
-    gap: 9em;
+    gap: calc(7vh);
     margin-bottom: 6em;
 }
 
 .banner-img {
-    max-width: 100%;
-    max-height: 60%;
-}
-
-.bannerPrincipal img {
-    position: relative;
-    width: 100%;
-}
+    width: 50%;
+    height: calc(100vh/1.2);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.banner-img img {
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+  }
 
 .banner-text {
+    width: 50%;
     justify-content: center;
     align-items: center;
     text-align: left;
@@ -50,7 +56,7 @@ section {
 
 .banner-text h1 {
     font-family: 'Newsreader' , normal; 
-    font-size: 8vh !important;
+    font-size: calc(90vh/12);
     font-weight: 600 !important;
     line-height: 1em;
     color: black;
@@ -62,9 +68,163 @@ section {
     font-family: 'Newsreader', normal;
     -webkit-text-stroke: var(--color2) .8px !important;
     line-height: 1em;
-    font-size: 5.7vh;
+    font-size: calc(100vh/18);
     color: var(--color2);
 }
+
+/*  Responsive */
+
+@media screen and (max-width: 1510px) {
+  
+    .bannerPrincipal  {
+        gap: calc(10vh);
+    }
+        
+    .banner-text h1 {
+        font-size: calc(90vh/12.5);
+    }
+
+    .banner-text p {
+        font-size: calc(100vh/19);
+    }
+}
+
+@media screen and (max-width: 1390px) {
+
+    .banner-text h1 {
+        font-size: calc(85vh/13);
+    }
+
+    .banner-text p {
+        font-size: calc(90vh/19);
+    }
+}
+
+@media screen and (max-width: 1250px) {
+
+    .banner-text h1 {
+        font-size: calc(80vh/13);
+    }
+
+    .banner-text p {
+        font-size: calc(85vh/19);
+    }
+}
+
+@media screen and (max-width: 1050px) {
+
+    
+    .bannerPrincipal  {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 0em;
+        margin-bottom: 6em;
+    }
+    
+    .banner-img {
+        width: 100%;
+        height: 80vh;
+      }
+      
+    .banner-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    
+    .banner-text {
+        position: absolute;
+        width: 100%;
+        background-color: var(--color5);
+        padding: 4em 0em;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .banner-text h1 {
+        font-size: 8vh;
+    }
+    
+    .banner-text p {
+        font-size: 5vh;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .bannerPrincipal  {
+        width: 100%;
+    }
+
+    .banner-text{
+        height: 100%;
+    }
+
+    .banner-text h1 {
+        font-size: 6vh;
+        padding: 0em 2em;
+        margin-bottom: .9em;
+    }
+    
+    .banner-text p {
+        padding: 0em 1em;
+        font-size: 4vh;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .banner-text h1 {
+        font-size: 5vh;
+        padding: 0em 4em;
+        margin-bottom: .9em;
+    }
+    
+    .banner-text p {
+        font-size: 3.5vh;
+        padding: 0em 2em;
+    }
+}
+
+@media screen and (max-width: 690px) and (min-height:960px){
+
+    .banner-text h1 {
+        font-size: 5vh;
+        padding: 0em 2em;
+        margin-bottom: .9em;
+    }
+    .banner-text p {
+        font-size: 3.2vh;
+        padding: 0em 2em;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .banner-text h1 {
+        font-size: 3.8vh;
+        padding: 0em 4em;
+        margin-bottom: .9em;
+    }
+    .banner-text p {
+        font-size: 3.2vh;
+        padding: 0em 2em;
+    }
+}
+
+@media screen and (max-width: 440px) and (min-height:960px){
+
+    .banner-text h1 {
+        font-size: 4vh;
+        padding: 0em 2em;
+        margin-bottom: .9em;
+    }
+    .banner-text p {
+        font-size: 3.2vh;
+        padding: 0em 2em;
+    }
+}
+
+/* BANNER SECUNDARIO/*/
 
 .bannerSecundario {
     grid-template-rows: repeat(auto-fit, minmax(50%, 1fr));
@@ -82,12 +242,13 @@ section {
 }
 
 .banner2 img {
-    width: 45%;
+    position:relative;
+    width: 50%;
 }
 
 .banner2-div {
     background: #679184;
-    width: 55%;
+    width: 50%;
     text-align: center;
     justify-content: center;
     padding:2em;
@@ -114,6 +275,125 @@ section {
     font-size: 3vh;
 }
 
+
+/* Responsive */
+
+@media screen and (max-width:1390px) and(min-height:910px){
+
+    .banner2 {
+        width: 100%;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        margin: auto;
+        flex-direction: column;
+    }
+    
+    .banner2 img {
+        width: 90%;
+        height: 100%;
+    }
+    .banner2-div h2 {
+        font-size: 4vh;
+    }
+
+    .banner2-div p {
+        font-size: 2.5vh;
+    }
+
+}
+
+@media screen and (max-width:1390px){
+
+
+.banner2 img {
+    position:relative;
+    width: 50%;
+}
+
+.banner2-div {
+    background: #679184;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding:2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner2-div h2 {
+    width: 90%;
+    padding-bottom: .5em;
+}
+
+.banner2-div p {
+    width: 90%;
+}
+}
+
+@media screen and (max-width:1050px){
+
+    .banner2 {
+        width: 100%;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        margin: auto;
+        flex-direction: column;
+    }
+    
+    .banner2 img {
+        width: 90%;
+        height: 100%;
+    }
+    .banner2-div h2 {
+        font-size: 4vh;
+    }
+
+    .banner2-div p {
+        font-size: 2.5vh;
+    }
+
+}
+
+@media screen and (max-width:690px){
+    .banner2 img {
+        width: 90%;
+        height: 100%;
+    }
+    .banner2-div h2 {
+        width: 100%;
+        font-size: 3.5vh;
+    }
+
+    .banner2-div p {
+        width: 100%;
+        font-size: 2.2vh;
+    }
+
+}
+
+@media screen and (max-width:490px){
+    .banner2 img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 1em;
+    }
+    .banner2-div h2 {
+        width: 100%;
+        font-size: 3.5vh;
+    }
+
+    .banner2-div p {
+        width: 100%;
+        font-size: 2.2vh;
+    }
+
+}
+
+/* SOMOS CARDS /*/
+
+
 .who{    
     width: 100%;
     display: flex;
@@ -124,7 +404,6 @@ section {
 }
 .somos {
     width: 100%;
-    height: 45;
     padding: 3em 3em;
     display: flex;
     justify-content: space-between;
@@ -214,6 +493,131 @@ section {
     font-weight: 400;
     line-height: normal;
 }
+
+/*  Responsive  */
+@media screen and (max-width:1810px) and (min-height:1050px){
+    
+    .somos {
+        width: 100%;
+        padding: 3em 3em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        gap: 2em;
+    }
+    
+    .somos-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 6em;
+    }   
+
+    .somos-quienes p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:1390px) and (min-height:820px){
+    
+    .somos {
+        width: 100%;
+        padding: 3em 3em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        gap: 2em;
+    }
+    
+    .somos-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 6em;
+    }   
+
+    .somos-quienes p {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 1050px){
+    .somos {
+        width: 100%;
+        padding: 3em 3em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        gap: 2em;
+    }
+    
+    .somos-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 6em;
+    }   
+
+    .somos-quienes p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:890px) {
+    .somos-div {
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        justify-content: center;
+        gap: 6em;
+        margin-bottom:3.5em;
+    }
+}
+
+@media screen and (max-width:590px){
+    
+    .somos {
+        align-items: center;
+        justify-content: center;
+    }
+    .somos-div{
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        margin: initial;
+        margin-bottom: 2em;
+    }
+
+    .somos-quienes h4 {
+        font-size: 4.5vh;
+    }
+
+    .somos-quienes p {
+        font-size: 2.5vh;
+        padding: 0em 5em;
+        text-align: justify;
+    }
+}
+
+
+@media screen and (max-width:470px){
+    
+    .somos-quienes h4 {
+        font-size: 4.2vh;
+    }
+
+    .somos-quienes p {
+        font-size: 2.5vh;
+        padding: 0em 8em;
+        text-align: center;
+    }
+}
+
+/* BOTON WHATSAPP/*/
+
+
 .main-escribenos{
     width: 100%;
     height: 35vh;
@@ -275,80 +679,3 @@ section {
     transform: translateY(0);
   }
   
-/* Media Queries para pantallas pequeñas */
-@media screen and (max-width: 768px) {
-    .bannerPrincipal {
-        top: 3em;
-    }
-
-    .banner-img {
-        width: 100%;
-        padding-right: 0;
-    }
-
-    .banner-text h1 {
-        font-size: 5vh;
-    }
-
-    .banner-text p {
-        font-size: 4vh;
-    }
-
-    .bannerSecundario {
-        margin-top: 4em;
-    }
-
-    .somos {
-        padding: 2em 2em;
-    }
-
-    .somos-div {
-        width: 100%;
-        flex-direction: column;
-        gap: 2em;
-    }
-
-    .somos-border {
-        width: 100%;
-    }
-
-    .somos-nosotros {
-        top: -3em;
-        width: 100%;
-    }
-
-    .somos-nosotros h4 {
-        font-size: 2.5vh;
-    }
-
-    .somos-nosotros p {
-        font-size: 2vh;
-    }
-
-    .somos-quienes h4 {
-        font-size: 3vh;
-    }
-
-    .somos-quienes p {
-        font-size: 20px;
-    }
-
-    .main-escribenos h3 {
-        font-size: 3vh;
-    }
-
-    .boton-escribe {
-        font-size: 3vh;
-        width: 40vh;
-        height: 6vh;
-    }
-
-    .boton-doble {
-        flex-direction: column;
-        gap: 2em;
-    }
-
-    .boton-doble button {
-        width: 100%;
-    }
-}

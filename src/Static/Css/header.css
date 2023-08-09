@@ -102,7 +102,7 @@ header{
 
 /* PROPIEDADES PARA DISP MOV */
 
-@media screen and (max-width:1179px){
+@media screen and (max-width:1050px){
 
     header .menu{
         width: 100%;
