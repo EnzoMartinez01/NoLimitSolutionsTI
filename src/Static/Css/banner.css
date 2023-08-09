@@ -484,6 +484,8 @@ section {
 }
 
 .somos-quienes p {
+    width: 80%;
+    height: auto;
     display: flex;
     justify-content: center;
     flex-shrink: 0;
@@ -610,22 +612,32 @@ section {
 
     .somos-quienes p {
         font-size: 2.5vh;
-        padding: 0em 8em;
+        padding: 0em 12em;
         text-align: left;
     }
 }
 
+@media screen and (max-width:290px){
+    
+    .somos-quienes h4 {
+        font-size: 4vh;
+    }
+
+    .somos-quienes p {
+        font-size: 2vh;
+        padding: 0em 22em;
+        text-align: left;
+    }
+}
 /* BOTON WHATSAPP/*/
 
 
 .main-escribenos{
     width: 100%;
-    height: 35vh;
     text-align: center;
     justify-content: center;
     overflow: hidden;
     padding: 5vh;
-    margin-bottom: 5em;
 }
 .main-escribenos h3{
     font-family: 'Noticia Text', serif;
@@ -652,25 +664,26 @@ section {
     background: red;
     transition: .3s ease-in
 }
+
 .boton-doble{
-    width: 50%;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    gap: 15vh;
+    justify-content: center;
     margin: auto;
-    margin-bottom: 5em;
+    margin-bottom: 3em;
     padding: 5vh 0 0 0;
 }
 .boton-doble button{
-    width: 40%;
+    width: 40vh;
     padding: 1em 2em;
-    text-align: center;
     background: #192C31;
     color: #FFF;
     font-size: 4vh;
     font-family: 'Newsreader', serif;
     border: none;
     height: 8vh;
-    padding: 0 0 10vh 0;
+    padding: 0vh 8vh;
     cursor: pointer;
 }
 .visible {
@@ -679,3 +692,46 @@ section {
     transform: translateY(0);
   }
   
+
+  /* Responsive */
+  @media screen and (max-width:950px){
+    
+    .boton-doble{
+        flex-direction: column;
+        align-items: center;
+        gap: 8vh;
+    }
+  }
+  @media screen and (max-width:650px){
+    
+    .boton-escribe{
+        background: #192C31;
+        color: #fff;
+        font-size: 230%;
+        width: 100%;
+        padding: 2vh;
+        text-align: center;
+        justify-content: center;
+        border: none;
+        cursor: pointer;
+    }
+
+
+    .boton-doble{
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        margin-bottom: 5em;
+        padding: 5vh 0 0 0;
+    }
+
+    .boton-doble button{
+    
+        width: 80%;
+        font-size: 3.5vh;
+        height: auto;
+        padding: 2vh 0vh;
+    }
+}
+    

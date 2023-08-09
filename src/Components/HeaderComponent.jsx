@@ -34,7 +34,7 @@ export default function HeaderComponent() {
         });
 
         $(window).on('resize', function () {
-            if ($(this).width() > 700) {
+            if ($(this).width() > 650 && $(this).height() > 1 ) {
                 links.show();
                 icono.addClass('fa-times');
                 icono.removeClass('fa-bars');
