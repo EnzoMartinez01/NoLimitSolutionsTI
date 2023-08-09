@@ -102,7 +102,7 @@ header{
 
 /* PROPIEDADES PARA DISP MOV */
 
-@media screen and (max-width:1050px){
+@media screen and (max-width:1190px) and (min-height:900px){
 
     header .menu{
         width: 100%;
@@ -110,13 +110,13 @@ header{
         flex-direction: column;
     }
     header .menu .logo{
+        width: 95%;
         display: flex;
         flex-direction: row;
-        justify-items: left;
+        justify-content:space-between;
         margin-right: 0em;
         margin-left: 0em;
-        padding: 0em;
-        width: 75%;
+        padding: 1em;
     }
     .menu .logo p{
         display: none;
@@ -128,10 +128,44 @@ header{
         width: 100%;
     }
     header .menu .btn-menu{
-        position: absolute;
+        position: relative;
         display: inline-block;
         color: var(--color1);
-        font-size: 3em;
+        font-size: 6.5vh;
+        right: 0.5em !important;
+        top: 0em !important;
+    }
+}
+
+@media screen and (max-width:1050px){
+    header .menu{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    header .menu .logo{
+        width: 95%;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        margin-right: 0em;
+        margin-left: 0em;
+        padding: 1em;
+    }
+    .menu .logo p{
+        display: none;
+    }
+    header .menu .enlaces{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+    header .menu .btn-menu{
+        position: relative;
+        display: inline-block;
+        color: var(--color1);
+        font-size: 6.5vh;
         right: 0.5em !important;
         top: 0em !important;
     }

@@ -115,7 +115,7 @@ section {
 
     
     .bannerPrincipal  {
-        width: 90%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         gap: 0em;
@@ -136,6 +136,7 @@ section {
     .banner-text {
         position: absolute;
         width: 100%;
+        height: 100%;
         background-color: var(--color5);
         padding: 4em 0em;
         display: flex;
@@ -561,7 +562,7 @@ section {
     }   
 
     .somos-quienes p {
-        text-align: center;
+        text-align: justify;
     }
 }
 
@@ -597,7 +598,6 @@ section {
     .somos-quienes p {
         font-size: 2.5vh;
         padding: 0em 5em;
-        text-align: justify;
     }
 }
 
@@ -611,7 +611,7 @@ section {
     .somos-quienes p {
         font-size: 2.5vh;
         padding: 0em 8em;
-        text-align: center;
+        text-align: left;
     }
 }
 
