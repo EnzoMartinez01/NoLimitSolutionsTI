@@ -73,8 +73,8 @@ export default function BannerComponent() {
                 <br />
                 <div className='boton-doble' id={show ? "show-element" : null}>
                     {show && 
-                    <button onClick={whatsappclick}>Whatsapp</button>}
-                    {show && <button onClick={emailclick}>Email</button>}
+                    <a target='_blank' href='https://wa.link/cg7xrm'><button>Whatsapp</button></a>}
+                    {show && <a target='_blank'><button onClick={emailclick} >Email</button></a>}
                 </div>
             </div>
         </section>

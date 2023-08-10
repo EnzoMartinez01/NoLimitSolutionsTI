@@ -26,7 +26,7 @@ export default function NosotrosMainComponent() {
                 </div>
             </section>
             <br />
-            <section>
+            <section className='nosotros-anuncio-container'>
                 <div className='nosotros-anuncio'>
                     <div className='text-anuncio'>
                         <p>

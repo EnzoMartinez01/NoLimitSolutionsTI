@@ -29,11 +29,11 @@ export default function FooterComponent() {
                         <p className='cont'>Contacto</p>
                         <div>
                             <i class="fa-solid fa-envelope"></i>
-                                <a href="mailto:nolimitsolutionsti@gmail.com">nolimitsolutionsti@gmail.com</a>
+                                <a href="mailto:nolimitsolutionsti@gmail.com" target='_blank'>nolimitsolutionsti@gmail.com</a>
                         </div>
                         <div>
                             <i class="fab fa-whatsapp"></i>
-                                <a href="https://wa.link/cg7xrm">+51 987654321</a>
+                                <a href="https://wa.link/cg7xrm" target='_blank'>+51 987654321</a>
                         </div>
                     </div>
                     <div className='section  col-md-3 s4'>
