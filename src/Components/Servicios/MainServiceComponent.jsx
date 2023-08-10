@@ -38,7 +38,7 @@ export default function MainServiceComponent() {
                     <div className='description'>
                         <h2>Maquetación Web</h2>
                         <p>Proceso de planificación, conceptualización y organización de contenido de una página web</p>
-                        <button onClick={whatsappclick}>Contactanos</button>
+                        <a href="https://wa.link/cg7xrm" target='_blank'><button>Contactanos</button></a>
                     </div>
                 </div>
                 <div className='cards'>
@@ -51,7 +51,7 @@ export default function MainServiceComponent() {
                     <div className='description'>
                         <h2>Diagnostico de PC</h2>
                         <p>Comprobar el funcionamiento correcto de la mayoría de los componentes críticos del sistema</p>
-                        <button onClick={whatsappclick}>Contactanos</button>
+                        <a href="https://wa.link/cg7xrm" target='_blank'><button>Contactanos</button></a>
                     </div>
                 </div>
                 <div className='cards'>
@@ -64,7 +64,7 @@ export default function MainServiceComponent() {
                     <div className='description'>
                         <h2>Desarrollo Web</h2>
                         <p>Proceso de crear y mantener un sitio web que sea funcional en internet, a través de diferentes lenguajes de programación</p>
-                        <button onClick={whatsappclick}>Contactanos</button>
+                        <a href="https://wa.link/cg7xrm" target='_blank'><button>Contactanos</button></a>
                     </div>
                 </div>
                 <div className='cards'>
@@ -77,7 +77,7 @@ export default function MainServiceComponent() {
                     <div className='description'>
                         <h2>Sistema de Base de Datos</h2>
                         <p>Almacenar todo tipo de datos en un solo lugar de forma ordenada.</p>
-                        <button onClick={whatsappclick}>Contactanos</button>
+                        <a href="https://wa.link/cg7xrm" target='_blank'><button>Contactanos</button></a>
                     </div>
                 </div>
                 <div className='cards'>
@@ -90,7 +90,7 @@ export default function MainServiceComponent() {
                     <div className='description'>
                         <h2>Mantenimiento de PC</h2>
                         <p>Proceso de limpieza, mantenimiento y diagnostico del equipo de computo.</p>
-                        <button onClick={whatsappclick}>Contactanos</button>
+                        <a href="https://wa.link/cg7xrm" target='_blank'><button>Contactanos</button></a>
                     </div>
                 </div>
                 <div className='cards'>
@@ -103,7 +103,7 @@ export default function MainServiceComponent() {
                     <div className='description'>
                         <h2>Cotización de PC</h2>
                         <p>Encargados de buscar los mejores componentes para armar un buen equipo de computo.</p>
-                        <button onClick={whatsappclick}>Contactanos</button>
+                        <a href="https://wa.link/cg7xrm" target='_blank'><button>Contactanos</button></a>
                     </div>
                 </div>
             </section>
@@ -116,7 +116,7 @@ export default function MainServiceComponent() {
                         <img src={proyecto1} alt="" /> 
                     </div>
                         <div className='description-s'>
-                            <h3>Proyecto 1</h3>
+                            <h3>No Limit Solutions TI</h3>
                         </div>
                 </div>                
                 <div className='cards cards-p'>
@@ -124,7 +124,7 @@ export default function MainServiceComponent() {
                         <img src={proyecto1} alt="" /> 
                 </div>
                         <div className='description-s'>
-                            <h3>Proyecto 2</h3>
+                            <h3>Anluvet Catalogo</h3>
                         </div>
                 </div>
                 <div className='cards cards-p'>
@@ -132,7 +132,7 @@ export default function MainServiceComponent() {
                         <img src={proyecto1} alt="" /> 
                 </div>
                         <div className='description-s'>
-                            <h3>Proyecto 3</h3>
+                            <h3>Anluvet</h3>
                         </div>
                 </div>
             </div>

@@ -234,6 +234,7 @@
 .proyecto-container h2{
     text-transform: uppercase;
     font-family: 'Noticia Text', serif;
+    letter-spacing: 2.5px;
     font-size: 5vh;
     font-weight: 600;
     display: flex;
