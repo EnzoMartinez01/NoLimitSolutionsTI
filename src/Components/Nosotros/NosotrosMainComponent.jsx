@@ -14,7 +14,6 @@ export default function NosotrosMainComponent() {
     return (
         <>
             <section className='banner'>
-                <div className='banner-nosotros-1'>
                     <div className='banner-nostros-texto'>
                         <h1>¿Tiene interés en conocernos?</h1>
                         <br />
@@ -23,7 +22,6 @@ export default function NosotrosMainComponent() {
                     <div className='banner-nosotros-img'>
                         <img src={bannernostros} alt="nostros" />
                     </div>
-                </div>
             </section>
             <br />
             <section className='nosotros-anuncio-container'>

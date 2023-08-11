@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,800&family=Noticia+Text&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Newsreader:opsz,wght@6..72,400;6..72,800&family=Noticia+Text&display=swap');
-
+/* CONTACTO */
 .mainContacto{
     width: 100%;
     overflow: hidden;
@@ -54,4 +54,136 @@
 }
 .contacto-right a:hover{
     color: #679184;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1220px){
+    .mainContacto{
+        width: 100%;
+        overflow: hidden;
+        flex-direction: column;
+        display: flex;
+        margin-bottom: 5em;
+    }
+    .contacto-left{
+        width: 100%;
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+        font-family: 'Lora', serif;
+        margin: auto;
+    }
+    .contacto-left h1{
+        font-weight: bold;
+        font-size: 6vh;
+    }
+    .contacto-left p{
+        font-size: 2.5vh;
+    }
+    .contacto-right{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .contacto-number h2{
+        margin: 0 0 0 3vh;
+        font-size: 2.3vh;
+        font-weight: bold;
+    }
+    .contacto-right a{
+        font-family: 'Lora', serif;
+        font-size: 2vh;
+        margin: 0 0 0 6vh;
+        text-decoration: none;
+        color: #000;
+    }
+
+}
+
+@media screen and (max-width:950px){
+    .mainContacto{
+        width: 100%;
+        overflow: hidden;
+        flex-direction: column;
+        display: flex;
+        margin-bottom: 5em;
+    }
+    .contacto-left{
+        width: 100%;
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+        font-family: 'Lora', serif;
+        margin: auto;
+    }
+    .contacto-left h1{
+        font-weight: bold;
+        font-size: 6vh;
+    }
+    .contacto-left p{
+        font-size: 2.5vh;
+    }
+    .contacto-right{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .contacto-number h2{
+        margin: 0 0 0 3vh;
+        font-size: 2.3vh;
+        font-weight: bold;
+    }
+    .contacto-right a{
+        font-family: 'Lora', serif;
+        font-size: 2vh;
+        margin: 0 0 0 6vh;
+        text-decoration: none;
+        color: #000;
+    }
+}
+
+@media screen and (max-width:600px){
+    .mainContacto{
+        width: 100%;
+        overflow: hidden;
+        flex-direction: column;
+        display: flex;
+        margin-bottom: 5em;
+    }
+    .contacto-left{
+        width: 100%;
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+        font-family: 'Lora', serif;
+        margin: auto;
+    }
+    .contacto-left h1{
+        font-weight: bold;
+        font-size: 4vh;
+    }
+    .contacto-left p{
+        font-size: 2.5vh;
+    }
+    .contacto-right{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .contacto-number h2{
+        margin: 0 0 0 3vh;
+        font-size: 2.3vh;
+        font-weight: bold;
+    }
+    .contacto-right a{
+        font-family: 'Lora', serif;
+        font-size: 2vh;
+        margin: 0 0 0 6vh;
+        text-decoration: none;
+        color: #000;
+    }
 }

@@ -46,6 +46,7 @@ export default function HeaderComponent() {
 
         });
     });
+    
     return (
         <>
 {/*         <Routes>
@@ -67,10 +68,10 @@ export default function HeaderComponent() {
                         </button>
                     </div>
                     <div class="enlaces" id="enlaces">
-                        <Link to="/">Inicio</Link>
-                        <Link to="/servicios">Servicios</Link>
-                        <Link to="/nosotros">Nosotros</Link>
-                        <Link to="/contacto">Contáctanos</Link>
+                        <Link id="link" to="/">Inicio</Link>
+                        <Link id="link" to="/servicios">Servicios</Link>
+                        <Link id="link" to="/nosotros">Nosotros</Link>
+                        <Link id="link" to="/contacto">Contáctanos</Link>
                     </div>
                 </nav>
             </header>

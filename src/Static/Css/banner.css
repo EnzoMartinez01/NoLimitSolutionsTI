@@ -612,8 +612,8 @@ section {
 
     .somos-quienes p {
         font-size: 2.5vh;
-        padding: 0em 12em;
-        text-align: left;
+        padding: 0em 7em;
+        text-align: justify;
     }
 }
 
