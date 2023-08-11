@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path='/' element={ <PrincipalComponent /> } />
+        <Route path='/NoLimitSolutionsTI' element={ <PrincipalComponent /> } />
         <Route path='servicios' element={ <ServiciosComponent /> } />
         <Route path='nosotros' element={ <NosotrosComponent /> } />
         <Route path='contacto' element={ <ContactanosComponent /> } />
