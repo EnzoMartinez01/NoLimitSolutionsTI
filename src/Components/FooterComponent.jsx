@@ -12,7 +12,7 @@ export default function FooterComponent() {
             <footer className='footer-container'>
                 <div className='container-full row'>
                     <div className='s1 section col-md-3'>
-                        <Link to="/">
+                        <Link to="/NoLimitSolutionsTI">
                             <img src={logo} alt="NoLimitSolutionsTI" />
                             <p style={{color :"#fff"}}>No Limit Solutions TI</p>
                         </Link>
@@ -20,7 +20,7 @@ export default function FooterComponent() {
                     </div>
                     <div className='section col-md-2'>
                         <p>Explora</p>
-                        <Link to="/">Inicio</Link>
+                        <Link to="/NoLimitSolutionsTI">Inicio</Link>
                         <Link to="/servicios">Servicios</Link>
                          <Link to="/nosotros">Nosotros</Link>
                          <Link to="/contacto">Contactanos</Link>

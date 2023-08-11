@@ -60,7 +60,7 @@ export default function HeaderComponent() {
             <header id="header">
                 <nav class="menu">
                     <div class="logo">
-                        <Link to="/">
+                        <Link to="/NoLimitSolutionsTI">
                             <img src={logo} alt="" class="logoimg" />
                         </Link> <p>No Limit Solutions TI</p>
                         <button href="" class="btn-menu" id="btn-menu" >
@@ -68,7 +68,7 @@ export default function HeaderComponent() {
                         </button>
                     </div>
                     <div class="enlaces" id="enlaces">
-                        <Link id="link" to="/">Inicio</Link>
+                        <Link id="link" to="/NoLimitSolutionsTI">Inicio</Link>
                         <Link id="link" to="/servicios">Servicios</Link>
                         <Link id="link" to="/nosotros">Nosotros</Link>
                         <Link id="link" to="/contacto">Contáctanos</Link>
