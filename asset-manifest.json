@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/NoLimitSolutionsTI/static/css/main.0e6f609b.css",
-    "main.js": "/NoLimitSolutionsTI/static/js/main.7b963a00.js",
+    "main.js": "/NoLimitSolutionsTI/static/js/main.55d97c5a.js",
     "static/media/banner.png": "/NoLimitSolutionsTI/static/media/banner.6046bef4b076538afd6a.png",
     "static/media/logof.png": "/NoLimitSolutionsTI/static/media/logof.4539472b476402e6b4c0.png",
     "static/media/fa-solid-900.ttf": "/NoLimitSolutionsTI/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
@@ -29,10 +29,10 @@
     "static/media/fa-v4compatibility.woff2": "/NoLimitSolutionsTI/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
     "index.html": "/NoLimitSolutionsTI/index.html",
     "main.0e6f609b.css.map": "/NoLimitSolutionsTI/static/css/main.0e6f609b.css.map",
-    "main.7b963a00.js.map": "/NoLimitSolutionsTI/static/js/main.7b963a00.js.map"
+    "main.55d97c5a.js.map": "/NoLimitSolutionsTI/static/js/main.55d97c5a.js.map"
   },
   "entrypoints": [
     "static/css/main.0e6f609b.css",
-    "static/js/main.7b963a00.js"
+    "static/js/main.55d97c5a.js"
   ]
 }
