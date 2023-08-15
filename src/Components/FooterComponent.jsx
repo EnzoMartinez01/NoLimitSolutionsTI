@@ -14,7 +14,7 @@ export default function FooterComponent() {
                     <div className='s1 section col-md-3'>
                         <Link to="/NoLimitSolutionsTI">
                             <img src={logo} alt="NoLimitSolutionsTI" />
-                            <p style={{color :"#fff"}}>No Limit Solutions TI</p>
+                            <p style={{color :"#fff"}}>NL Solutions TI</p>
                         </Link>
 
                     </div>
@@ -43,7 +43,7 @@ export default function FooterComponent() {
                         <a href="">Instagram</a>
                     </div>
                 <div className='row'>
-                <p className='pie-text'>© 2023 No Limit Solutions TI - Todos los derechos reservados</p>
+                <p className='pie-text'>© 2023 NL Solutions TI - Todos los derechos reservados</p>
                 </div>
                 </div>
             </footer>

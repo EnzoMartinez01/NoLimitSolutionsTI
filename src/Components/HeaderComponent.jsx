@@ -62,7 +62,7 @@ export default function HeaderComponent() {
                     <div class="logo">
                         <Link to="/NoLimitSolutionsTI">
                             <img src={logo} alt="" class="logoimg" />
-                        </Link> <p>No Limit Solutions TI</p>
+                        </Link> <p>NL Solutions TI</p>
                         <button href="" class="btn-menu" id="btn-menu" >
                             <i class="icono-menu fa fa-bars"></i>
                         </button>

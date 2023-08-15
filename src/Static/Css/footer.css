@@ -8,6 +8,8 @@
 }
 
 .footer-container{
+    
+    font-family: 'Newsreader', serif !important;
     width: 100%;
     background: #679184;
 }
@@ -52,7 +54,6 @@
 .section p{
     color: #fff;
     font-size: 3.2vh;
-    font-family: 'Lora', serif !important;
     display: flex;
 }
 
@@ -60,8 +61,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-family: 'Lora', serif;
-    font-size: 2.3vh;
+    font-size: 3vh;
 }
 .section i{
     color: var(--color1);
@@ -78,7 +78,6 @@
     text-align: center;
     padding-top: 0 !important;
     color: #fff;
-    font-family: 'Newsreader', serif;
     
 }
 

@@ -358,7 +358,7 @@
     flex-direction: column;
     justify-content: center;
     background: rgba(174, 205, 196, 0.49);
-    font-family: 'Noticia Text', serif;
+    font-family: 'Newsreader' !important;
 }
 .valores h2{
     color: rgba(37, 98, 80, 0.79);
@@ -398,6 +398,7 @@
     width: 100%;
     padding: 12vh 0;
     overflow: hidden;
+    font-family: 'Newsreader' !important;
 }
 .equipo-container{
     width: 100%;
@@ -407,7 +408,6 @@
     text-align: center;
     padding: 2vh;
     background: #67918480;
-    font-family: 'Noticia Text', serif;
 }
 .equipo-container-text h2{
     font-weight: 700;
@@ -460,12 +460,10 @@
     width: 80%;
 }
 .equipo-fotos-datos div h4{
-    font-family: 'Inika', serif;
     font-size: 2.5vh;
     font-weight: 600;
 }
 .equipo-fotos-datos div p{
-    font-family: 'Inika', serif;
     font-weight: bold;
     font-size: 2vh;
     text-align: left;

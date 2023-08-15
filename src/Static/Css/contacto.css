@@ -8,6 +8,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 5vh 0vh;
 }
 
 .contacto-left{
@@ -16,7 +17,7 @@
     flex-direction: column;
     margin: 0 0 10vh 20vh;
     padding: 2vh;
-    font-family: 'Lora', serif;
+    font-family: 'Newsreader', serif;
 }
 .contacto-left h1{
     font-weight: bold;
@@ -34,7 +35,7 @@
     margin: 1vh;
     flex-direction: row;
     align-items: center;
-    font-family: 'Lora', serif;
+    font-family: 'Newsreader', serif;
 }
 .contacto-number h2{
     margin: 0 0 0 3vh;
@@ -46,7 +47,7 @@
     background: #679184;
 }
 .contacto-right a{
-    font-family: 'Lora', serif;
+    font-family: 'Newsreader', serif;
     font-size: 2.5vh;
     margin: 0 0 0 6vh;
     text-decoration: none;
@@ -71,7 +72,7 @@
         display: flex;
         justify-content: left;
         flex-direction: column;
-        font-family: 'Lora', serif;
+        font-family: 'Newsreader', serif;
         margin: auto;
     }
     .contacto-left h1{
@@ -93,7 +94,7 @@
         font-weight: bold;
     }
     .contacto-right a{
-        font-family: 'Lora', serif;
+        font-family: 'Newsreader', serif;
         font-size: 2vh;
         margin: 0 0 0 6vh;
         text-decoration: none;
@@ -115,7 +116,7 @@
         display: flex;
         justify-content: left;
         flex-direction: column;
-        font-family: 'Lora', serif;
+        font-family: 'Newsreader', serif;
         margin: auto;
     }
     .contacto-left h1{
@@ -137,7 +138,7 @@
         font-weight: bold;
     }
     .contacto-right a{
-        font-family: 'Lora', serif;
+        font-family: 'Newsreader', serif;
         font-size: 2vh;
         margin: 0 0 0 6vh;
         text-decoration: none;
@@ -158,7 +159,7 @@
         display: flex;
         justify-content: left;
         flex-direction: column;
-        font-family: 'Lora', serif;
+        font-family: 'Newsreader', serif;
         margin: auto;
     }
     .contacto-left h1{
@@ -180,7 +181,7 @@
         font-weight: bold;
     }
     .contacto-right a{
-        font-family: 'Lora', serif;
+        font-family: 'Newsreader', serif;
         font-size: 2vh;
         margin: 0 0 0 6vh;
         text-decoration: none;

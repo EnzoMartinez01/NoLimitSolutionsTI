@@ -11,6 +11,7 @@
 }
 /* BANNER */
 .banner{
+    font-family: 'Newsreader', serif !important;
     position: relative;
     top: 15vh;
     overflow: hidden;
@@ -35,7 +36,6 @@
     text-align: right;
 }
 .banner-service-text h1{
-    font-family: 'Newsreader' , serif; 
     font-size: 9.5vh !important;
     font-weight: 600 !important;
     color: var(--color1);
@@ -43,7 +43,6 @@
     margin-bottom: .9em;
 }
 .banner-service-text p{
-    font-family: 'Newsreader', serif;
     font-size: 4.4vh;
     color: #28240D;
 }
@@ -150,6 +149,8 @@
 
 /* CARDS */
 .services-cards{
+    
+    font-family: 'Newsreader', serif !important;
     width: 100%;
     overflow: hidden;
     display: grid;
@@ -158,6 +159,7 @@
     justify-content: center;
     margin: auto;
     align-items: center;
+    cursor: default;
 
 }
 .cards{
@@ -201,7 +203,6 @@
 .description{
     width: 100%;
     text-align: center;
-    font-family: 'Noticia Text', serif;
     border-radius: 0px 0px 20px 20px;
     border-top: 1px solid #679184;
     background: #FFF;
@@ -257,9 +258,11 @@
 
 /* PROYECTOS CARDS */
 
+.proyecto-container{
+    font-family: 'Newsreader',serif !important;
+}
 .proyecto-container h2{
     text-transform: uppercase;
-    font-family: 'Noticia Text', serif;
     letter-spacing: 2.5px;
     font-size: 5vh;
     font-weight: 600;
@@ -289,7 +292,6 @@
 .description-s{
     width: 100%;
     text-align: center;
-    font-family: 'Noticia Text', serif;
     border-radius: 0px 0px 20px 20px;
     border-top: 1px solid #679184;
     background: #FFF;

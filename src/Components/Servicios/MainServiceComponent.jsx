@@ -3,11 +3,10 @@ import '../../Static/Css/servicios.css';
 import banner from '../../Static/Images/Servicios/banner.png';
 import maquetacionweb from '../../Static/Images/Servicios/maquetacionweb.png';
 import diagnostico from '../../Static/Images/Servicios/diagnostico.png';
-import pcmantenimiento from '../../Static/Images/Servicios/pcmantenimiento.png';
 import desarrolloweb from '../../Static/Images/Servicios/desarrollo web.png';
 import basededatos from '../../Static/Images/Servicios/basededatos.jpg';
-import cotizacionpc from '../../Static/Images/Servicios/cotizacionpc.jpg';
 import proyecto1 from '../../Static/Images/Servicios/Proyecto1.png';
+import proyecto2 from '../../Static/Images/Servicios/Proyecto2.png';
 
 export default function MainServiceComponent() {
     const whatsappclick = () => {
@@ -80,32 +79,6 @@ export default function MainServiceComponent() {
                         <a href="https://wa.link/cg7xrm" target='_blank'><button>Contactanos</button></a>
                     </div>
                 </div>
-                <div className='cards'>
-                    <div className='cat'>
-                        <i class="fa-solid fa-screwdriver"></i>
-                    </div>
-                    <div className='img-service'>
-                    <img src={pcmantenimiento} alt="mantenimiento pc" />
-                    </div>
-                    <div className='description'>
-                        <h2>Mantenimiento de PC</h2>
-                        <p>Proceso de limpieza, mantenimiento y diagnostico del equipo de computo.</p>
-                        <a href="https://wa.link/cg7xrm" target='_blank'><button>Contactanos</button></a>
-                    </div>
-                </div>
-                <div className='cards'>
-                    <div className='cat'>
-                        <i class="fa-solid fa-screwdriver"></i>
-                    </div>
-                    <div className='img-service'>
-                    <img src={cotizacionpc} alt="cotizacion pc"/>
-                    </div>
-                    <div className='description'>
-                        <h2>Cotización de PC</h2>
-                        <p>Encargados de buscar los mejores componentes para armar un buen equipo de computo.</p>
-                        <a href="https://wa.link/cg7xrm" target='_blank'><button>Contactanos</button></a>
-                    </div>
-                </div>
             </section>
             <br />
             <section className='service-container proyecto-container'>
@@ -113,7 +86,7 @@ export default function MainServiceComponent() {
             <div className='services-cards proyectos-services'>
                 <div className='cards cards-p'>
                     <div className='img-proyect'>
-                        <img src={proyecto1} alt="" /> 
+                        <img src={proyecto1} alt="NL Solutions TI" /> 
                     </div>
                         <div className='description-s'>
                             <h3>No Limit Solutions TI</h3>
@@ -121,7 +94,7 @@ export default function MainServiceComponent() {
                 </div>                
                 <div className='cards cards-p'>
                 <div className='img-proyect'>
-                        <img src={proyecto1} alt="" /> 
+                        <img src={proyecto2} alt="Catalogo-Anluvet" /> 
                 </div>
                         <div className='description-s'>
                             <h3>Anluvet Catalogo</h3>
