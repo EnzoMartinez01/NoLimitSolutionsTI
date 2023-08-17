@@ -431,9 +431,9 @@ section {
     width: 100%;
     background-color: var(--color6);
     display: flex;
+    font-family: 'Newsreader', serif !important;
     flex-direction: row;
     justify-content: center;
-    font-family: 'Newsreader', serif;
     font-weight: 600;
     flex-shrink: 0;
     color: var(--color1);
