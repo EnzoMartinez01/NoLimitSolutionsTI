@@ -37,7 +37,7 @@ export default function MainServiceComponent() {
                     <div className='description'>
                         <h2>Maquetación Web</h2>
                         <p>Proceso de planificación, conceptualización y organización de contenido de una página web</p>
-                        <a href="https://wa.link/cg7xrm" target='_blank'><button>Contactanos</button></a>
+                        <a href="https://wa.link/cg7xrm" target='_blank'><button>¡Lo Quiero!</button></a>
                     </div>
                 </div>
                 <div className='cards'>
@@ -50,7 +50,7 @@ export default function MainServiceComponent() {
                     <div className='description'>
                         <h2>Diagnostico de PC</h2>
                         <p>Comprobar el funcionamiento correcto de la mayoría de los componentes críticos del sistema</p>
-                        <a href="https://wa.link/cg7xrm" target='_blank'><button>Contactanos</button></a>
+                        <a href="https://wa.link/cg7xrm" target='_blank'><button>¡Lo Quiero!</button></a>
                     </div>
                 </div>
                 <div className='cards'>
@@ -63,7 +63,7 @@ export default function MainServiceComponent() {
                     <div className='description'>
                         <h2>Desarrollo Web</h2>
                         <p>Proceso de crear y mantener un sitio web que sea funcional en internet, a través de diferentes lenguajes de programación</p>
-                        <a href="https://wa.link/cg7xrm" target='_blank'><button>Contactanos</button></a>
+                        <a href="https://wa.link/cg7xrm" target='_blank'><button>¡Lo Quiero!</button></a>
                     </div>
                 </div>
                 <div className='cards'>
@@ -76,7 +76,7 @@ export default function MainServiceComponent() {
                     <div className='description'>
                         <h2>Sistema de Base de Datos</h2>
                         <p>Almacenar todo tipo de datos en un solo lugar de forma ordenada.</p>
-                        <a href="https://wa.link/cg7xrm" target='_blank'><button>Contactanos</button></a>
+                        <a href="https://wa.link/cg7xrm" target='_blank'><button>¡Lo Quiero!</button></a>
                     </div>
                 </div>
             </section>

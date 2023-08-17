@@ -23,6 +23,7 @@
     overflow: hidden;
     display: flex;
     gap: 1em;
+    margin: auto;
     flex-direction: row;
     justify-content: space-around
 }

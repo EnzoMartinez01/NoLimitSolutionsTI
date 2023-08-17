@@ -23,7 +23,7 @@
     background: rgba(37, 98, 80, 0.79);
     display: flex;
     flex-direction: column;
-    padding: 8vh 7vh;
+    padding: 9vh 7vh;
 }
 
 .banner-nostros-texto h1 {
@@ -94,6 +94,10 @@
 
     .banner-nostros-texto {
         width: 100%;
+    }
+    .banner-nosotros-img {
+        width: 100%;
+        height: 100%;
     }
 }
 
@@ -304,7 +308,6 @@
     padding: 3vh;
 }
 .mision div p{
-    color: rgba(0, 0, 0, 0.47);
     font-size: 1.9vh;
 }
 .vision{
@@ -323,7 +326,6 @@
     padding: 3vh;
 }
 .vision div p{
-    color: rgba(0, 0, 0, 0.47);
     font-size: 1.9vh;
 }
 

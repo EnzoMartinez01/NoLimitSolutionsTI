@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import banner from '../../Static/Images/Principal/banner.png';
 import '../../Static/Css/banner.css';
-import coding from '../../Static/Images/Principal/coding.png';
-import banner2 from '../../Static/Images/Principal/banner2.png';
 import anthony from '../../Static/Images/Principal/Anthony.png';
 import enzo from '../../Static/Images/Principal/Enzo.png';
 
@@ -42,7 +40,7 @@ export default function BannerComponent() {
                                 <i class="fa-solid fa-pen-nib"></i>
                             </div>
                             <p>
-                                Proceso de planificación, conceptualización y organización de contenido de una página web
+                                Proceso de planificación, conceptualización y organización de contenido de una página web.
                             </p>
                         </div>
                         <div className='banner2-cards-card'>
@@ -51,7 +49,7 @@ export default function BannerComponent() {
                                 <i className="fa-solid fa-code"></i>
                             </div>
                             <p>
-                                Proceso de crear y mantener un sitio web que sea funcional en internet, a través de diferentes lenguajes de programación
+                                Proceso de crear y mantener un sitio web que sea funcional en internet, a través de diferentes lenguajes de programación.
                             </p>
                         </div>
                     </div>
