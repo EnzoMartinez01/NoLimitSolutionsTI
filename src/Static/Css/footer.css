@@ -11,8 +11,11 @@
     
     font-family: 'Newsreader', serif !important;
     width: 100%;
+    max-width: 1980px;
+    margin: auto;
     background: #679184;
 }
+
 .footer-container a{
     text-decoration: none;
     color: #000;
@@ -43,8 +46,8 @@
 }
 
 .s1 p{
+    font-weight: 600;
     margin: auto;
-    font-size: 2.8vh !important;
     padding-top: .4em;
 }
 .section img{
@@ -54,7 +57,7 @@
 
 .section p{
     color: #fff;
-    font-size: 3.2vh;
+    font-size: 1.3em;
     display: flex;
 }
 
@@ -62,7 +65,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 3vh;
+    font-size: 1.2em;
 }
 .section i{
     color: var(--color1);
@@ -86,18 +89,7 @@ a:hover{
     color: #fff;
 }
 
-@media screen and (max-width:1650px){
-    .s4{
-        position: relative;
-        left:5em;
-    }
-}
 
-@media screen and (max-width:1150px){
-    .s4{
-        left:7em;
-    }
-}
 
 @media screen and (max-width:1050px){
 
@@ -136,7 +128,9 @@ a:hover{
         display: flex;
         flex-direction: column;
     }
-
+    .section i{
+        padding-right:0;
+    }
     .s4{
         left:0em;
     }

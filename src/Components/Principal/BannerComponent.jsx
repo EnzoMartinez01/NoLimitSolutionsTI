@@ -19,6 +19,10 @@ export default function BannerComponent() {
 
     return (
         <>
+
+
+    <main>
+        <section className='contenido'>
             <section>
                 <div className='bannerPrincipal'>
                     <div className='banner-img'>
@@ -92,6 +96,10 @@ export default function BannerComponent() {
                     </div>
                 </div>
             </section>
+        </section>
+    </main>
+
+
         </>
     )
 }

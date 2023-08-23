@@ -33,14 +33,14 @@ export default function FooterComponent() {
                         </div>
                         <div>
                             <i class="fab fa-whatsapp"></i>
-                                <a href="https://wa.link/cg7xrm" target='_blank'>+51 987654321</a>
+                                <a href="https://wa.link/7listk" target='_blank'>+51 941778278</a>
                         </div>
                     </div>
                     <div className='section  col-md-3 s4'>
                         <p>Siguenos</p>
-                        <a href="">Facebook</a>
-                        <a href="">LinkedIn</a>
-                        <a href="">Instagram</a>
+                        <a href="https://www.facebook.com/" target='_blank'>Facebook</a>
+                        <a href="https://www.linkedin.com/" target='_blank'>LinkedIn</a>
+                        <a href="https://www.instagram.com/" target='_blank'>Instagram</a>
                     </div>
                 <div className='row'>
                 <p className='pie-text'>© 2023 NL Solutions TI - Todos los derechos reservados</p>
