@@ -677,8 +677,9 @@ section {
     background: #192C31;
     color: #fff;
     font-size: 2em;
-    width: 50vh;
+    width: 30%;
     padding: .5em 2em;
+    margin-bottom: 1em;
     text-align: center;
     justify-content: center;
     border: none;
@@ -717,6 +718,8 @@ section {
 .boton-doble a {
     font-size: 2em;
     height: auto;
+    display: flex;
+    justify-content: center;
     padding: 2vh 0vh;
     text-decoration: none;
 }
@@ -734,12 +737,30 @@ section {
 
 
 /* Responsive */
+@media screen and (max-width:1090px) and (min-height:1080px){
+
+    .boton-escribe {
+        margin: auto;
+        font-size: 2em;
+        width: 50%;
+    }
+
+    .boton-doble {
+        margin: auto;
+        width: 80%;
+        display: grid;
+        gap: 1em;
+    }
+}
+
+
 @media screen and (max-width:750px) {
 
 
 .boton-escribe {
+    margin: auto;
     font-size: 2em;
-    width: 50vh;
+    width: 80%;
 }
 
 .boton-escribe:hover {
@@ -748,7 +769,8 @@ section {
 }
 
 .boton-doble {
-    width: 100%;
+    margin: auto;
+    width: 80%;
     display: grid;
     gap: 1em;
 }
@@ -773,7 +795,7 @@ section {
 
     .boton-escribe {
         font-size: 2em;
-        width: 50vh;
+        width: 70%;
     }
     
     .boton-escribe:hover {
@@ -789,7 +811,7 @@ section {
     }
     
     .boton-doble button {
-        width: 50vh;
+        width: 70%;
     }
     
 }
@@ -810,7 +832,9 @@ section {
 
     .boton-escribe {
         font-size: 2em;
-        width: 45vh;
+        width: 80%;
+        padding: .5em 0em;
+        margin-bottom: 1em;
         text-align: center;
     }
     
@@ -820,10 +844,10 @@ section {
     }
     
     .boton-doble {
-        width: 100%;
+        width: 60%;
         display: grid;
         
-        gap: 1em;
+        gap: 0em;
     }
     
     .boton-doble button {
