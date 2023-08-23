@@ -215,6 +215,8 @@ header{
     color: var(--color1);
     
     font-size: 2em;
+
+    background-color: transparent;
     
     right: 0.5em !important;
     
@@ -280,8 +282,6 @@ header{
     display: inline-block;
     
     color: var(--color1);
-    
-    background-color: transparent;
     
     font-size: 2em;
     
