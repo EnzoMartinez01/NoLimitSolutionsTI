@@ -9,10 +9,7 @@ export default function BannerComponent() {
 
 
     const [show, setShow] = useState(false);
-
-    const whatsappclick = () => {
-        window.location.replace('https://wa.link/cg7xrm');
-    }
+    
     const emailclick = () => {
         window.location.replace('mailto:nolimitsolutionsti@gmail.com');
     }
@@ -91,7 +88,7 @@ export default function BannerComponent() {
                     <br />
                     <div className='boton-doble' id={show ? "show-element" : null}>
                         {show &&
-                            <a target='_blank' href='https://wa.link/cg7xrm'><button> <i class="fa-brands fa-whatsapp"></i> Whatsapp</button></a>}
+                            <a target='_blank' href='https://wa.link/7listk'><button> <i class="fa-brands fa-whatsapp"></i> Whatsapp</button></a>}
                         {show && <a target='_blank'><button onClick={emailclick} > <i class="fa-solid fa-envelope"></i> Email</button></a>}
                     </div>
                 </div>
