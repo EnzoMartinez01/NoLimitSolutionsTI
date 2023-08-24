@@ -278,7 +278,10 @@ section {
     flex-direction: row;
     justify-content: space-between;
     color: #1E3B30;
-    padding: 5vh 3vh 0vh 3vh;
+    text-align: center;
+    padding: 2em 0vh 0vh 0vh;
+    margin: auto;
+    width: 90%;
 }
 
 .banner2-cards-title h3 {
@@ -329,11 +332,11 @@ section {
         display: none ;
     }
     .banner2-cards-title {
+        width: 85%;
         color: #1e3b30;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding: 2em 0em;
         margin: auto;
     }
 
@@ -368,7 +371,7 @@ section {
         display: flex;
         flex-direction: column;
         border-radius: 1vh;
-        padding: 2vh .5vh;
+        padding: 1em 0 1em 0;
         margin: auto;
         justify-content: center;
     }
@@ -399,7 +402,6 @@ section {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
         grid-auto-rows: min-content;
-        padding: 0vh 5vh 5vh 10vh;
         gap: 5vh;
         justify-items: start;
     }
@@ -415,9 +417,25 @@ section {
         gap: 5vh;
         justify-items: start;
     }
+        .banner2-cards-card {
+        width: 400px;
+        max-height: 90%;
+        background: #D9D9D9;
+        display: flex;
+        flex-direction: column;
+        border-radius: 1vh;
+        padding: 1em 0 1em 0;
+        margin: auto;
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width:430px) {
+
+    .banner2-cards-title {
+        padding: 2em 0 0 0;
+    }
+
     .banner2-cards {
         width: 100%;
         display: grid;
@@ -428,7 +446,7 @@ section {
         justify-items: start;
     }
     .banner2-cards-card {
-        width: 60%;
+        width: 380px;
     }
 
 }
@@ -677,9 +695,9 @@ section {
     background: #192C31;
     color: #fff;
     font-size: 2em;
-    width: 30%;
+    display: flex;
+    margin: auto;
     padding: .5em 2em;
-    margin-bottom: 1em;
     text-align: center;
     justify-content: center;
     border: none;
@@ -703,7 +721,7 @@ section {
 
 .boton-doble button {
     border-radius: .1em;
-    width: 40vh;
+    width: 300px;
     padding: .5em 2em;
     background: #192C31;
     color: #FFF;
@@ -742,14 +760,17 @@ section {
     .boton-escribe {
         margin: auto;
         font-size: 2em;
-        width: 50%;
+        width: 550px;
     }
 
-    .boton-doble {
+    .boton-doble{
         margin: auto;
-        width: 80%;
         display: grid;
         gap: 1em;
+    }
+
+    .boton-doble button{
+        width:550px
     }
 }
 
@@ -760,7 +781,7 @@ section {
 .boton-escribe {
     margin: auto;
     font-size: 2em;
-    width: 80%;
+    width: 500px;
 }
 
 .boton-escribe:hover {
@@ -776,7 +797,7 @@ section {
 }
 
 .boton-doble button {
-    width: 50vh;
+    width: 500px;
 }
 
 }
@@ -795,7 +816,7 @@ section {
 
     .boton-escribe {
         font-size: 2em;
-        width: 70%;
+        width: 460px;
     }
     
     .boton-escribe:hover {
@@ -804,23 +825,16 @@ section {
     }
     
     .boton-doble {
-        width: 100%;
-        display: grid;
-        
         gap: 1em;
     }
     
     .boton-doble button {
-        width: 70%;
+        width: 460px;
     }
     
 }
 
 @media screen and (max-width:490px) {
-    .main-escribenos{
-        width: 100%;
-        margin: auto;
-    }
     .main-escribenos h3 {
         font-weight: bold;
         font-size: 2.5em;
@@ -832,7 +846,7 @@ section {
 
     .boton-escribe {
         font-size: 2em;
-        width: 80%;
+        width: 370px;
         padding: .5em 0em;
         margin-bottom: 1em;
         text-align: center;
@@ -844,20 +858,28 @@ section {
     }
     
     .boton-doble {
-        width: 60%;
         display: grid;
         
         gap: 0em;
     }
     
     .boton-doble button {
-        width: 45vh;
+        width: 370px;
     }
 
     .boton-doble a {
-
-        width: 100%;
         font-size: 1.7em;
         height: auto;
+    }
+}
+
+
+@media screen and (max-width:390px) {
+    .boton-escribe {
+        width: 310px;
+    }
+
+    .boton-doble button {
+        width: 310px;
     }
 }
