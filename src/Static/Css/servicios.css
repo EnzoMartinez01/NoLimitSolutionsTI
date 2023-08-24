@@ -10,9 +10,7 @@
     --color5: #d6d6d686;
 }
 /* BANNER */
-main{
-    display: grid;
-}
+
 
 .contenido{
     max-width: 1980px;
@@ -75,7 +73,9 @@ main{
 /* Responsive */
 
 @media screen and (max-width:1050px) and (min-height:549px){
-
+    .contenido{
+        margin: initial;
+    }
     .banner-service{
         width: 95%;
         flex-direction: column;
