@@ -4,6 +4,12 @@
 
 
 /*  BANNER */
+
+.contenido{
+    max-width: 1980px;
+    margin: auto;
+}
+
 .banner {
     position: relative;
     width: 100%;

@@ -38,7 +38,7 @@ export default function FooterComponent() {
                     </div>
                     <div className='section  col-md-3 s4'>
                         <p>Siguenos</p>
-                        <a href="https://www.facebook.com/" target='_blank'>Facebook</a>
+                        <a href="https://www.facebook.com/NLSolutionsTI/" target='_blank'>Facebook</a>
                         <a href="https://www.linkedin.com/" target='_blank'>LinkedIn</a>
                         <a href="https://www.instagram.com/" target='_blank'>Instagram</a>
                     </div>

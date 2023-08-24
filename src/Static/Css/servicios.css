@@ -10,18 +10,27 @@
     --color5: #d6d6d686;
 }
 /* BANNER */
+main{
+    display: grid;
+}
+
+.contenido{
+    max-width: 1980px;
+    margin: auto;
+}
+
 .banner{
     font-family: 'Newsreader', serif !important;
-    position: relative;
-    top: 15vh;
-    overflow: hidden;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    position: relative !important;
+    overflow: hidden !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    top: 5em !important;
 }
 .banner-service{
-    position: relative;
     width: 95%;
+    position: relative;
     overflow: hidden;
     display: flex;
     flex-direction: row;
@@ -29,6 +38,7 @@
     align-items: center;
     margin: auto;
     gap: 9em;
+    margin-bottom: 8em;
 }
 .banner-service-text{
     justify-content: center;
@@ -36,18 +46,27 @@
     text-align: right;
 }
 .banner-service-text h1{
-    font-size: 9.5vh !important;
+    font-size: 4em !important;
     font-weight: 600 !important;
     color: var(--color1);
     -webkit-text-stroke: var(--color1) .8px !important;
     margin-bottom: .9em;
 }
 .banner-service-text p{
-    font-size: 4.4vh;
+    font-size: 2em;
     color: #28240D;
 }
 .banner-service-img{
-    width: 55%;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-service-img img{
+    max-width: 70%;
+    max-height: 400px;
+    display: flex;
+    margin: auto;
 }
 
 
@@ -77,7 +96,7 @@
     align-items: center;
 }
 .banner-service{
-    width: 95%;
+    width: 90%;
     flex-direction: column;
     gap: 2em;
 }
@@ -85,6 +104,7 @@
     text-align: center;
 }
 .banner-service-text h1{
+    font-size: 3.5em !important;
     margin-bottom: .3em;
 }
 
@@ -112,7 +132,7 @@
         text-align: center;
     }
     .banner-service-text h1{
-        font-size: 7vh !important;
+        font-size: 3em !important;
         margin-bottom: .3em;
     }
 
@@ -129,18 +149,19 @@
         align-items: center;
     }
     .banner-service{
-        width: 100%;
+        width: 95%;
     }
     .banner-service-text{
         text-align: center;
     }
+
     .banner-service-text h1{
-        font-size: 5vh !important;
+        font-size: 3em !important;
         margin-bottom: .3em;
     }
 
     .banner-service-text p{
-        font-size: 3vh !important;
+        font-size: 1.5em !important;
     }
     
     }
@@ -151,19 +172,23 @@
 .services-cards{
     
     font-family: 'Newsreader', serif !important;
-    width: 100%;
+    width: 95%;
     overflow: hidden;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(70vh, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 4em;
     grid-auto-rows: min-content;
     justify-content: center;
     margin: auto;
     align-items: center;
     cursor: default;
+    padding-bottom: 4em;
+    margin-bottom: 4em;
 
 }
 .cards{
-    margin: 7vh;
+    width: 450px;
+    margin: auto;
     overflow: hidden;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     background: #dadada;
@@ -179,14 +204,14 @@
     margin-bottom: 1em;
 }
 .cards img{
-    max-width: 85vh;
-    height: 25vh;
+    max-width: 90%;
+    height: 180px;
     align-items: center;
     mix-blend-mode: darken;
 }
 .cat{
-    width: 6vh;
-    height: 6vh;
+    width: 60px;
+    padding: 1em 0em;
     background: #679184;
     margin: 2vh;
     float: right;
@@ -197,10 +222,11 @@
     align-items: center;
 }
 .cat i{
-    font-size: 3vh;
+    font-size: 1.5em;
     color: #FFF;
 }
 .description{
+    padding-top: 1em;
     width: 100%;
     text-align: center;
     border-radius: 0px 0px 20px 20px;
@@ -212,22 +238,22 @@
 
 .description h2{
     font-weight: 700;
-    font-size: 4vh;
+    font-size: 1.8em;
 }
 .description p{
     font-weight: 400;
-    font-size: 2vh;
+    font-size: 1em;
 }
 .description button{
     margin: 0 0 2vh 0;
     border-radius: 2px;
     background: #679184;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    width: 18vh;
-    height: 4vh;
+    width: 50%;
+    padding: .5em 0;
     border: none;
     color: #FFF;
-    font-size: 2vh;
+    font-size: 1em;
 }
 .description button:hover{
     background: var(--color1);
@@ -244,8 +270,8 @@
         justify-content: center;
         margin: auto;
         align-items: center;
-        gap: 6vh;
-        padding: 2vh;
+        gap: 4em;
+        margin-bottom: 3em;
     }
     .cards{
         margin: auto;
@@ -254,7 +280,12 @@
         background: #dadada;
         border-radius: 20px 20px;
         border: none;
-        width: 60%;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .cards{
+        width: 250px;
     }
 }
 
@@ -262,12 +293,13 @@
 /* PROYECTOS CARDS */
 
 .proyecto-container{
+    margin-bottom: 3em;
     font-family: 'Newsreader',serif !important;
 }
 .proyecto-container h2{
     text-transform: uppercase;
     letter-spacing: 2.5px;
-    font-size: 5vh;
+    font-size: 2em;
     font-weight: 600;
     display: flex;
     background-color: var(--color4);
@@ -280,6 +312,8 @@
 }
 
 .proyectos-services{
+    position: relative;
+    top: 2em;
     text-align: center;
     overflow: hidden;
     align-items: center;
@@ -287,7 +321,7 @@
     margin: auto;
     
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(70vh, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     grid-auto-rows: min-content;
     margin-bottom: 5em;
 }
@@ -304,13 +338,13 @@
 }
 .description-s h3{
     font-weight: 700;
-    font-size: 4vh;
+    font-size: 1.8em;
 }
 .cards-p{
+    display: grid;
     background-color: #FFF;
 }
 .img-proyect{
-    width: 100%;
     justify-content: center;
     margin: auto;
     align-items: center;
@@ -319,8 +353,8 @@
 }
 
 .proyectos-services img{
-    max-width: 100vh;
-    height: 30vh;
+    width: 100%;
+    height: 200px;
     align-items: center;
     mix-blend-mode: darken;
 }

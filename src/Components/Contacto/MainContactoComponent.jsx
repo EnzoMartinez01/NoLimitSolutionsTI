@@ -16,7 +16,7 @@ export default function MainContactoComponent() {
                     <div className='rectangulo' />
                     <h2>Número de Contacto</h2>
                     </div>
-                    <a href='https://wa.link/cg7xrm'>+51 987654321</a>
+                    <a href='https://wa.link/ss09j4' target='_blank'>+51 941778278</a>
                 </div>
                 <br />
                 <div className='numero'>
