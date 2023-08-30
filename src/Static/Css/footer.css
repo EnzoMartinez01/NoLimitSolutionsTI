@@ -7,8 +7,23 @@
     --color1: #292929;
 }
 
+html{
+    height: 100vh;
+}
+#root{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 
-
+/*     display: grid;
+    min-height: 100vh;
+    grid-auto-rows: auto 1fr auto; */
+}
+footer{
+    margin-top: auto;
+    display: grid;
+    width: 100%;
+}
 .footer-container{
     display: grid;
     font-family: 'Newsreader', serif !important;

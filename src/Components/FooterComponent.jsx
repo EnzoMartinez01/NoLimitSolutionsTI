@@ -9,7 +9,8 @@ export default function FooterComponent() {
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     return (
         <>
-            <footer className='footer-container'>
+            <footer>
+            <div className='footer-container'>
                 <div className='container-full row'>
                     <div className='s1 section col-md-3'>
                         <Link to="/NoLimitSolutionsTI">
@@ -46,6 +47,7 @@ export default function FooterComponent() {
                 <p className='pie-text'>© 2023 NL Solutions TI - Todos los derechos reservados</p>
                 </div>
                 </div>
+            </div>
             </footer>
         </>
     )
