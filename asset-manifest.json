@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NoLimitSolutionsTI/static/css/main.325dd669.css",
-    "main.js": "/NoLimitSolutionsTI/static/js/main.59b69277.js",
+    "main.css": "/NoLimitSolutionsTI/static/css/main.4f7a7f0e.css",
+    "main.js": "/NoLimitSolutionsTI/static/js/main.f32974e9.js",
     "static/media/banner.png": "/NoLimitSolutionsTI/static/media/banner.6046bef4b076538afd6a.png",
     "static/media/logof.png": "/NoLimitSolutionsTI/static/media/logof.4539472b476402e6b4c0.png",
     "static/media/Enzo.png": "/NoLimitSolutionsTI/static/media/Enzo.059a4243f9ff12b98027.png",
@@ -17,20 +17,21 @@
     "static/media/fa-regular-400.ttf": "/NoLimitSolutionsTI/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
     "static/media/avatar.png": "/NoLimitSolutionsTI/static/media/avatar.e6d8b2cfebf2500af366.png",
     "static/media/basededatos.jpg": "/NoLimitSolutionsTI/static/media/basededatos.59d973ec697d404be053.jpg",
-    "static/media/valores2.png": "/NoLimitSolutionsTI/static/media/valores2.0029847480f3fb12b29f.png",
     "static/media/nosotros-mv.png": "/NoLimitSolutionsTI/static/media/nosotros-mv.e00d1306666f9cd4248f.png",
     "static/media/maquetacionweb.png": "/NoLimitSolutionsTI/static/media/maquetacionweb.d4edacb9b9ceef98483d.png",
+    "static/media/valores2.png": "/NoLimitSolutionsTI/static/media/valores2.0408df9c60568c71547e.png",
+    "static/media/valores1.png": "/NoLimitSolutionsTI/static/media/valores1.53b38eacb28038ec01ee.png",
     "static/media/fa-regular-400.woff2": "/NoLimitSolutionsTI/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
-    "static/media/valores4.png": "/NoLimitSolutionsTI/static/media/valores4.2034f96f4c04fd178494.png",
-    "static/media/valores1.png": "/NoLimitSolutionsTI/static/media/valores1.70449df3d5b9c0cf566c.png",
+    "static/media/valores4.png": "/NoLimitSolutionsTI/static/media/valores4.d0451b6cd0394ebb208e.png",
+    "static/media/valores3.png": "/NoLimitSolutionsTI/static/media/valores3.e457c4bab0a2208e6ec8.png",
     "static/media/fa-v4compatibility.ttf": "/NoLimitSolutionsTI/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
     "static/media/fa-v4compatibility.woff2": "/NoLimitSolutionsTI/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
     "index.html": "/NoLimitSolutionsTI/index.html",
-    "main.325dd669.css.map": "/NoLimitSolutionsTI/static/css/main.325dd669.css.map",
-    "main.59b69277.js.map": "/NoLimitSolutionsTI/static/js/main.59b69277.js.map"
+    "main.4f7a7f0e.css.map": "/NoLimitSolutionsTI/static/css/main.4f7a7f0e.css.map",
+    "main.f32974e9.js.map": "/NoLimitSolutionsTI/static/js/main.f32974e9.js.map"
   },
   "entrypoints": [
-    "static/css/main.325dd669.css",
-    "static/js/main.59b69277.js"
+    "static/css/main.4f7a7f0e.css",
+    "static/js/main.f32974e9.js"
   ]
 }
