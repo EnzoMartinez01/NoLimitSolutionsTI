@@ -100,7 +100,7 @@ export default function NosotrosMainComponent() {
                 <section className='nosotros-equipo'>
                     <div className='equipo-container'>
                         <div className='equipo-container-text'>
-                            <h2>NUESTRO EQUIPO</h2>
+                            <h2>Nuestro Equipo</h2>
                         </div>
                         <div className='equipo-fotos-container'>
                             <div className='equipo-fotos'>

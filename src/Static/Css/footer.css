@@ -7,7 +7,18 @@
     --color1: #292929;
 }
 
+html{ 
+    height: 100vh;
+}
+
+body{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
 .footer-container{
+    display: grid;
     font-family: 'Newsreader', serif !important;
     width: 100%;
     max-width: 1980px;

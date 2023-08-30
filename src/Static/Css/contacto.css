@@ -2,33 +2,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,800&family=Noticia+Text&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Newsreader:opsz,wght@6..72,400;6..72,800&family=Noticia+Text&display=swap');
 /* CONTACTO */
+.contenido{
+    height: 80%;
+}
 .mainContacto{
-    width: 100%;
+    width: 95%;
     overflow: hidden;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 5vh 0vh;
+    margin-top: 4em;
+    margin-bottom: 5em;
+    padding: 5em 0;
 }
 
 .contacto-left{
-    width: 45%;
+    width: 40%;
     display: flex;
     flex-direction: column;
-    margin: 0 0 10vh 20vh;
-    padding: 2vh;
+    margin:auto;
     font-family: 'Newsreader', serif;
 }
 .contacto-left h1{
     font-weight: bold;
-    font-size: 8vh;
+    font-size: 3em;
 }
 .contacto-left p{
-    font-size: 3.5vh;
+    font-size: 1.5em;
+    text-align: justify;
 }
 
 .contacto-right{
-    width: 45%;
+    width: 35%;
 }
 .contacto-number{
     display: flex;
@@ -42,13 +47,13 @@
     font-weight: bold;
 }
 .rectangulo{
-    width: 1vh;
-    height: 5vh;
+    width: 7px;
+    height: 30px;
     background: #679184;
 }
 .contacto-right a{
     font-family: 'Newsreader', serif;
-    font-size: 2.5vh;
+    font-size: 1.3em;
     margin: 0 0 0 6vh;
     text-decoration: none;
     color: #000;
@@ -59,132 +64,69 @@
 
 /* RESPONSIVE */
 
-@media screen and (max-width: 1220px){
+@media screen and (max-width: 750px){
     .mainContacto{
-        width: 100%;
-        overflow: hidden;
-        flex-direction: column;
-        display: flex;
-        margin-bottom: 5em;
+        width: 90%;
+        display: grid;
+        margin: auto;
+        top: 5em;
+        margin-bottom: 10em;
+        position: relative;
     }
     .contacto-left{
         width: 100%;
         display: flex;
-        justify-content: left;
+        justify-content: center;
         flex-direction: column;
         font-family: 'Newsreader', serif;
         margin: auto;
     }
     .contacto-left h1{
         font-weight: bold;
-        font-size: 6vh;
+        font-size: 2em;
     }
     .contacto-left p{
-        font-size: 2.5vh;
+        font-size: 1em;
     }
     .contacto-right{
         width: 100%;
         display: flex;
-        flex-direction: row;
         justify-content: space-around;
     }
     .contacto-number h2{
-        margin: 0 0 0 3vh;
-        font-size: 2.3vh;
-        font-weight: bold;
+        font-size: 1.3em;
     }
     .contacto-right a{
-        font-family: 'Newsreader', serif;
-        font-size: 2vh;
-        margin: 0 0 0 6vh;
-        text-decoration: none;
-        color: #000;
+        font-size: 1.1em;
     }
 
 }
 
-@media screen and (max-width:950px){
-    .mainContacto{
-        width: 100%;
-        overflow: hidden;
-        flex-direction: column;
-        display: flex;
-        margin-bottom: 5em;
-    }
-    .contacto-left{
-        width: 100%;
-        display: flex;
-        justify-content: left;
-        flex-direction: column;
-        font-family: 'Newsreader', serif;
-        margin: auto;
-    }
-    .contacto-left h1{
-        font-weight: bold;
-        font-size: 6vh;
-    }
-    .contacto-left p{
-        font-size: 2.5vh;
-    }
+@media screen and (max-width:500px){
     .contacto-right{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-    .contacto-number h2{
-        margin: 0 0 0 3vh;
-        font-size: 2.3vh;
-        font-weight: bold;
-    }
-    .contacto-right a{
-        font-family: 'Newsreader', serif;
-        font-size: 2vh;
-        margin: 0 0 0 6vh;
-        text-decoration: none;
-        color: #000;
+        display: grid;
+        justify-content: left;
     }
 }
 
-@media screen and (max-width:600px){
-    .mainContacto{
-        width: 100%;
-        overflow: hidden;
-        flex-direction: column;
-        display: flex;
-        margin-bottom: 5em;
-    }
+@media screen and (max-width:350px){
+
     .contacto-left{
-        width: 100%;
-        display: flex;
-        justify-content: left;
-        flex-direction: column;
-        font-family: 'Newsreader', serif;
-        margin: auto;
+        text-align: center;
     }
-    .contacto-left h1{
-        font-weight: bold;
-        font-size: 4vh;
-    }
-    .contacto-left p{
-        font-size: 2.5vh;
+
+    .contacto-number{
+        padding: 0em 1em;
     }
     .contacto-right{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
-    .contacto-number h2{
-        margin: 0 0 0 3vh;
-        font-size: 2.3vh;
-        font-weight: bold;
+        display: grid;
+        justify-content: center;
     }
     .contacto-right a{
-        font-family: 'Newsreader', serif;
-        font-size: 2vh;
-        margin: 0 0 0 6vh;
-        text-decoration: none;
-        color: #000;
+        display: flex;
+        justify-content: center;
+        margin: 0 0 0 0;
+        padding: 0;
+        text-align: center;
     }
 }
