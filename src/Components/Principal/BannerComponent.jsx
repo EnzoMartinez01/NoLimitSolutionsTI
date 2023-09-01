@@ -4,8 +4,8 @@ import '../../Static/Css/banner.css';
 import anthony from '../../Static/Images/Principal/Anthony.png';
 import enzo from '../../Static/Images/Principal/Enzo.png';
 
-export default function BannerComponent() {
 
+export default function BannerComponent() {
 
 
     const [show, setShow] = useState(false);

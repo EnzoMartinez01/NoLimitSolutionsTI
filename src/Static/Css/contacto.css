@@ -11,8 +11,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 4em;
-    margin-bottom: 5em;
+    margin:auto;
     padding: 5em 0;
 }
 
@@ -33,7 +32,7 @@
 }
 
 .contacto-right{
-    width: 35%;
+    width: 40%;
 }
 .contacto-number{
     display: flex;

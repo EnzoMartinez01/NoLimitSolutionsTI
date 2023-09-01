@@ -5,10 +5,21 @@ import $ from 'jquery';
 import Headroom from 'headroom.js';
 import logo from '../Static/Images/logof.png';
 import { Link }from 'react-router-dom';
-
+import { useEffect } from 'react';
+import ScrollReveal from 'scrollreveal';
 
 
 export default function HeaderComponent() {
+
+    useEffect(() => {
+        // Inicializar ScrollReveal
+        ScrollReveal().reveal('.menu', {
+            duration:800,
+            origin: 'bottom',
+            distance: '-100px'
+        })}
+        );
+
     $(function () {
         var header = document.getElementById('header');
         var headroom = new Headroom(header);
